@@ -1,0 +1,22 @@
+.link_element:hover {
+    scale: 1.05;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    gap: 1rem;
+    margin: "20pt";
+    padding: "5pt";
+    border-top: "solid 1pt";
+    border-color: "#D3D3D3";
+}
+
+/*
+  margin: "20pt",
+  padding: "5pt",
+  borderTop: "solid 1pt",
+  borderColor: "#D3D3D3"
+  */
