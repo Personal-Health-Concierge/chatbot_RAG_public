@@ -17,6 +17,9 @@ export default function LineChart({ title, data }) {
   let datasets = []
 
   if (data && data.length > 0) {
+
+    data.sort((a, b) => a["date"].localeCompare(b["date"]))
+
     // Extract dates and keys
     dates = data.map(entry => entry.date);
     const keys = Object.keys(data[0]).filter(key => key !== 'date');
